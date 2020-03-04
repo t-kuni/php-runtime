@@ -9,8 +9,8 @@ wget -O __php-runtime.zip https://github.com/t-kuni/php-runtime/archive/master.z
 
 
 ```bash
-echo '__env' > .git/info/exclude
-echo 'docker-compose.yml' > .git/info/exclude
+echo '__env' >> .git/info/exclude
+echo 'docker-compose.yml' >> .git/info/exclude
 ```
 
 # Usage
