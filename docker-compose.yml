@@ -3,7 +3,7 @@ services:
   php:
     build:
       context: .
-      dockerfile: ./env/php/Dockerfile
+      dockerfile: ./__env/php/Dockerfile
     volumes:
       - ./:/app
-      - ./env/php/php.ini-development:/usr/local/etc/php/php.ini
+      - ./__env/php/php.ini-development:/usr/local/etc/php/php.ini
